@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TwitterVideoUploader_Example' do
+  pod 'TwitterVideoUploader', :path => '../'
+
+  target 'TwitterVideoUploader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
