@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE21AB9B495FC83705353DF /* TwitterVideoUploader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TwitterVideoUploader.podspec; path = ../TwitterVideoUploader.podspec; sourceTree = "<group>"; };
+		0BE21AB9B495FC83705353DF /* TwitterVideoUploader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TwitterVideoUploader.podspec; path = ../TwitterVideoUploader.podspec; sourceTree = "<group>"; };
 		0E3ACDCE311BC793B3A55F6E /* Pods-TwitterVideoUploader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterVideoUploader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterVideoUploader_Example/Pods-TwitterVideoUploader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C8F7C358A22D882B36AC56A /* Pods-TwitterVideoUploader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterVideoUploader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterVideoUploader_Tests/Pods-TwitterVideoUploader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46DEF0254D20D162E930E258 /* Pods-TwitterVideoUploader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterVideoUploader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterVideoUploader_Example/Pods-TwitterVideoUploader_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		93B110D37F8C5BE0A7600909 /* Pods_TwitterVideoUploader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterVideoUploader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B93BA0CD2C31382961C5BAA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B93BA0CD2C31382961C5BAA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D5AD28B5D4AC5B7D3D8FEB8F /* Pods_TwitterVideoUploader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterVideoUploader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBFD9BAFDEB23D72C646C912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EBFD9BAFDEB23D72C646C912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE0BDA0AF5BC4731773BBAFE /* Pods-TwitterVideoUploader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterVideoUploader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterVideoUploader_Tests/Pods-TwitterVideoUploader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

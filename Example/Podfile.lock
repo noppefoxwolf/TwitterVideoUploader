@@ -1,0 +1,25 @@
+PODS:
+  - ObjectMapper (2.2.2)
+  - RxSwift (3.1.0)
+  - STTwitter (0.2.6)
+  - TwitterVideoUploader (0.1.0):
+    - ObjectMapper
+    - RxSwift
+    - STTwitter
+
+DEPENDENCIES:
+  - TwitterVideoUploader (from `../`)
+
+EXTERNAL SOURCES:
+  TwitterVideoUploader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  STTwitter: 30ee2f79eff78c3d633a1edc869e97db9c9ead59
+  TwitterVideoUploader: 54fa7a8e7d509739d16c8299f48499df55452884
+
+PODFILE CHECKSUM: 3f2841d5b6cc425a99a396fc5f2648d8cb397c96
+
+COCOAPODS: 1.2.0.beta.3
