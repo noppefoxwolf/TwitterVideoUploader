@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TwitterVideoUploader'
-  s.version          = '0.2.0'
+  s.version          = '0.2.2'
   s.summary          = 'STTwitter chunked video upload extension using RxSwift.'
 
   s.description      = <<-DESC
