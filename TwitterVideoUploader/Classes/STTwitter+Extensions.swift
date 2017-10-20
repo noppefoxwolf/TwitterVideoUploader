@@ -25,6 +25,7 @@ extension STTwitterAPI {
       errorBlock(error)
       return nil
     }
+    
     var md = [String: String]()
     md["command"] = "INIT"
     md["media_type"] = "video/mp4"
@@ -129,7 +130,7 @@ internal extension STTwitterAPI {
       self.postMediaUploadAPPEND(withVideoURL: url, mediaID: mediaId, uploadProgressBlock: { (bytesWritten, accumulatedBytesWritten, dataLength) in
         //observer.onNext(Float(accumulatedBytesWritten) / Float(dataLength))
       }, successBlock: { (_) in
-        observer.onNext()
+        observer.onNext(())
         observer.onCompleted()
       }, errorBlock: { (error) in
         observer.onError(error!)
@@ -153,7 +154,7 @@ internal extension STTwitterAPI {
   internal func STATUS(mediaId: String) -> Observable<Void> {
     return Observable.create({ (observer) -> Disposable in
       self.getMediaUploadAsyncSTATUS(with: mediaId, successBlock: {
-        observer.onNext()
+        observer.onNext(())
         observer.onCompleted()
       }, errorBlock: { (error) in
         observer.onError(error)

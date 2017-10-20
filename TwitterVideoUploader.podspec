@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TwitterVideoUploader'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'STTwitter chunked video upload extension using RxSwift.'
 
   s.description      = <<-DESC
@@ -18,6 +18,6 @@ STTwitter chunked video upload extension using RxSwift.
   s.source_files = 'TwitterVideoUploader/Classes/**/*'
 
   s.dependency 'STTwitter'
-  s.dependency 'RxSwift'
-  s.dependency 'ObjectMapper'
+  s.dependency 'RxSwift', '4.0.0-rc.0'
+  s.dependency 'ObjectMapper', '3.0.0'
 end

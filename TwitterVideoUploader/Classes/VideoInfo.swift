@@ -81,5 +81,5 @@ struct VideoInfo {
 }
 
 fileprivate extension AVURLAsset {
-  var videoTrack: AVAssetTrack? { get { return tracks(withMediaType: AVMediaTypeVideo).first } }
+  var videoTrack: AVAssetTrack? { get { return tracks(withMediaType: AVMediaType.video).first } }
 }

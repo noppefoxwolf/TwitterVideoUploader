@@ -9,6 +9,7 @@
 import Foundation
 import STTwitter
 import RxSwift
+import STTwitter
 
 public extension STTwitterAPI {
   public func postMediaAsyncUploadThreeSteps(withVideoURL videoURL: URL) -> Observable<String> {
