@@ -112,7 +112,7 @@ extension STTwitterAPI {
 internal extension STTwitterAPI {
   internal func INIT(withVideoMediaURL url: URL) -> Observable<(String, Int)> {
     return Observable.create { observer in
-      self.postMediaUploadAsyncINIT(with: url, successBlock: { (expiresAfterSecs, mediaId, mediaIdString) in
+      _ = self.postMediaUploadAsyncINIT(with: url, successBlock: { (expiresAfterSecs, mediaId, mediaIdString) in
         print(mediaId, expiresAfterSecs)
         observer.onNext((mediaIdString, expiresAfterSecs))
         observer.onCompleted()
@@ -153,7 +153,7 @@ internal extension STTwitterAPI {
   
   internal func STATUS(mediaId: String) -> Observable<Void> {
     return Observable.create({ (observer) -> Disposable in
-      self.getMediaUploadAsyncSTATUS(with: mediaId, successBlock: {
+      _ = self.getMediaUploadAsyncSTATUS(with: mediaId, successBlock: {
         observer.onNext(())
         observer.onCompleted()
       }, errorBlock: { (error) in

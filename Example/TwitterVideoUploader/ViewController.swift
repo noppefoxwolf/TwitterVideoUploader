@@ -23,7 +23,7 @@ final class ViewController: UIViewController {
       print(error)
     }, onCompleted: {
       print("valid!")
-    }).addDisposableTo(👝)
+    }).disposed(by: 👝)
     
     //post
     let api = STTwitterAPI(oAuthConsumerKey: "",
@@ -38,7 +38,7 @@ final class ViewController: UIViewController {
       print("complete")
     }, onDisposed: { 
       print("dispose")
-    }).addDisposableTo(👝)
+    }).disposed(by: 👝)
   }
 
 }

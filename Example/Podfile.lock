@@ -1,10 +1,10 @@
 PODS:
   - ObjectMapper (3.0.0)
-  - RxSwift (4.0.0-rc.0)
+  - RxSwift (4.0.0)
   - STTwitter (0.2.6)
-  - TwitterVideoUploader (0.2.0):
+  - TwitterVideoUploader (0.2.2):
     - ObjectMapper (= 3.0.0)
-    - RxSwift (= 4.0.0-rc.0)
+    - RxSwift (= 4.0.0)
     - STTwitter
 
 DEPENDENCIES:
@@ -16,10 +16,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
-  RxSwift: 1dd09ceb11531c39adff4efe23556b1484e16967
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   STTwitter: 30ee2f79eff78c3d633a1edc869e97db9c9ead59
-  TwitterVideoUploader: e54a0adae1696eb9dbf7c92a9d53977582198900
+  TwitterVideoUploader: 4dfdeae5317cabcb070e72995d13625e846dadee
 
-PODFILE CHECKSUM: 3f2841d5b6cc425a99a396fc5f2648d8cb397c96
+PODFILE CHECKSUM: 5c91cc6cd97c39fa8a5f8b8fe92cf6f6896a244b
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0.beta.2
